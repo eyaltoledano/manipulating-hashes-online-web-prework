@@ -9,8 +9,8 @@ def second_challenge
   #code your solution here!
   grocery_list = []
 
-  groceries.keys.each do |key|
-    grocery_list << key.values
+  groceries.each do |key, value|
+    grocery_list << key[value]
   end
   grocery_list
 end
